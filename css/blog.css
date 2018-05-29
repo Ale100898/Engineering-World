@@ -1,0 +1,71 @@
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+#blog .contenedor img {
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+    max-width: 280px;
+    flex-wrap: wrap;
+   
+}
+
+#tabla {
+    border: 1px solid;
+    width: 600px; 
+    border-collapse: collapse;
+    border-spacing: 0px;
+
+}
+
+#tabla th {
+    background-color: #585858;
+}
+
+#tabla td {
+    border: 1px solid;
+    text-align: center;
+}
+
+#tabla tr:hover {
+    background-color: #81BEF7; 
+}
+
+
+#Todo:checked ~ #imagenes .sistemas1, #Todo:checked ~ #imagenes .mecanica1,  #Todo:checked ~ #imagenes .ambiental1,  #Todo:checked ~ #imagenes .electrica1,  #Todo:checked ~ #imagenes .civil1,  #Todo:checked ~ #imagenes .industrial1, #Todo:checked ~ #tabla {
+    display: none;
+}
+
+#Sistemas:checked ~ #imagenes .Mecanica, #Sistemas:checked ~ #imagenes .Ambiental, #Sistemas:checked ~ #imagenes .Electrica, #Sistemas:checked ~ #imagenes .Civil, #Sistemas:checked ~ #imagenes .Industrial, #Sistemas:checked ~ #imagenes .mecanica1, #Sistemas:checked ~ #imagenes .ambiental1, #Sistemas:checked ~ #imagenes .electrica1, #Sistemas:checked ~ #imagenes .civil1, #Sistemas:checked ~ #imagenes .industrial1, #Sistemas:checked ~ #tabla .TablaMecanica, #Sistemas:checked ~ #tabla .TablaAmbiental, #Sistemas:checked ~ #tabla .TablaElectrica, #Sistemas:checked ~ #tabla .TablaCivil, #Sistemas:checked ~ #tabla .TablaIndustrial  {
+    display: none;  
+}
+
+#Mecanica:checked ~ #imagenes .Sistemas, #Mecanica:checked ~ #imagenes .Ambiental, #Mecanica:checked ~ #imagenes .Electrica, #Mecanica:checked ~ #imagenes .Civil, #Mecanica:checked ~ #imagenes .Industrial, #Mecanica:checked ~ #imagenes .sistemas1, #Mecanica:checked ~ #imagenes .ambiental1, #Mecanica:checked ~ #imagenes .electrica1, #Mecanica:checked ~ #imagenes .civil1, #Mecanica:checked ~ #imagenes .industrial1, #Mecanica:checked ~ #tabla .TablaSistemas, #Mecanica:checked ~ #tabla .TablaAmbiental, #Mecanica:checked ~ #tabla .TablaElectrica, #Mecanica:checked ~ #tabla .TablaCivil, #Mecanica:checked ~ #tabla .TablaIndustrial {
+    display: none;
+}
+
+#Ambiental:checked ~ #imagenes .Sistemas, #Ambiental:checked ~ #imagenes .Mecanica, #Ambiental:checked ~ #imagenes .Electrica, #Ambiental:checked ~ #imagenes .Civil, #Ambiental:checked ~ #imagenes .Industrial, #Ambiental:checked ~ #imagenes .sistemas1, #Ambiental:checked ~ #imagenes .mecanica1, #Ambiental:checked ~ #imagenes .electrica1, #Ambiental:checked ~ #imagenes .civil1, #Ambiental:checked ~ #imagenes .industrial1, #Ambiental:checked ~ #tabla .TablaSistemas, #Ambiental:checked ~ #tabla .TablaMecanica, #Ambiental:checked ~ #tabla .TablaElectrica, #Ambiental:checked ~ #tabla .TablaCivil, #Ambiental:checked ~ #tabla .TablaIndustrial {
+    display: none;
+}
+
+#Electrica:checked ~ #imagenes .Sistemas, #Electrica:checked ~ #imagenes .Mecanica, #Electrica:checked ~ #imagenes .Ambiental, #Electrica:checked ~ #imagenes .Civil, #Electrica:checked ~ #imagenes .Industrial, #Electrica:checked ~ #imagenes .sistemas1, #Electrica:checked ~ #imagenes .mecanica1, #Electrica:checked ~ #imagenes .ambiental1, #Electrica:checked ~ #imagenes .civil1, #Electrica:checked ~ #imagenes .industrial1, #Electrica:checked ~ #tabla .TablaSistemas, #Electrica:checked ~ #tabla .TablaMecanica, #Electrica:checked ~ #tabla .TablaAmbiental, #Electrica:checked ~ #tabla .TablaCivil, #Electrica:checked ~ #tabla .TablaIndustrial {
+    display: none;
+}
+
+#Civil:checked ~ #imagenes .Sistemas, #Civil:checked ~ #imagenes .Mecanica, #Civil:checked ~ #imagenes .Ambiental, #Civil:checked ~ #imagenes .Electrica, #Civil:checked ~ #imagenes .Industrial, #Civil:checked ~ #imagenes .sistemas1, #Civil:checked ~ #imagenes .mecanica1, #Civil:checked ~ #imagenes .ambiental1, #Civil:checked ~ #imagenes .electrica1, #Civil:checked ~ #imagenes .industrial1, #Civil:checked ~ #tabla .TablaSistemas, #Civil:checked ~ #tabla .TablaMecanica, #Civil:checked ~ #tabla .TablaAmbiental, #Civil:checked ~ #tabla .TablaElectrica, #Civil:checked ~ #tabla .TablaIndustrial {
+    display: none;
+}
+
+#Industrial:checked ~ #imagenes .Sistemas, #Industrial:checked ~ #imagenes .Mecanica, #Industrial:checked ~ #imagenes .Ambiental, #Industrial:checked ~ #imagenes .Civil, #Industrial:checked ~ #imagenes .Electrica, #Industrial:checked ~ #imagenes .sistemas1, #Industrial:checked ~ #imagenes .mecanica1, #Industrial:checked ~ #imagenes .ambiental1, #Industrial:checked ~ #imagenes .civil1, #Industrial:checked ~ #imagenes .electrica1, #Industrial:checked ~ #tabla .TablaSistemas, #Industrial:checked ~ #tabla .TablaMecanica, #Industrial:checked ~ #tabla .TablaAmbiental, #Industrial:checked ~ #tabla .TablaCivil, #Industrial:checked ~ #tabla .TablaElectrica {
+    display: none;
+}
+
+ 
+
+
